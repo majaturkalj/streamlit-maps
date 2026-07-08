@@ -19,7 +19,7 @@ with st.expander("See source code"):
     with st.echo():
         m = leafmap.Map()
         m.split_map(
-            left_layer="precipitation.tif", right_layer="temperature.tif"
+            left_layer="https://github.com/majaturkalj/streamlit-maps/blob/main/data/precipitation.tif", right_layer="https://github.com/majaturkalj/streamlit-maps/blob/main/data/temperature.tif"
         )
 
 m.to_streamlit(height=700)
