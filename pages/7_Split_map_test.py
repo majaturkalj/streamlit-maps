@@ -19,7 +19,7 @@ with st.expander("See source code"):
     with st.echo():
         m = leafmap.Map()
         m.split_map(
-            left_layer="https://github.com/opengeos/datasets/releases/download/raster/Libya-2023-07-01.tif", right_layer="https://github.com/opengeos/datasets/releases/download/raster/Libya-2023-09-13.tif"
+            left_layer="https://github.com/majaturkalj/streamlit-maps/raw/refs/heads/main/data/precipitation.tif", right_layer="https://github.com/majaturkalj/streamlit-maps/raw/refs/heads/main/data/temperature.tif"
         )
 
 m.to_streamlit(height=700)
